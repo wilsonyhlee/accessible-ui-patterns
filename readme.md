@@ -54,4 +54,4 @@ $ npm test -- --coverage
 
 ## License
 
-MIT © [Søren Brokær](http://srn.io)
+MIT ©
