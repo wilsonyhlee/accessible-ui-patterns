@@ -1,0 +1,22 @@
+
+body {
+  font-family: "Helvetica Neue", serif;
+}
+
+li.active {
+  background: repeating-linear-gradient(
+  135deg, #ee6e73, #ee6e73 10px,
+  rgba(0, 0, 0, 0.1) 10px, rgba(0, 0, 0, 0.1) 20px);
+  > a {
+    font-weight: bold;
+  }
+}
+
+.texture-button {
+  background: #F44336;
+  &.active {
+    background: repeating-linear-gradient(
+        135deg, #F44336, #F44336 10px,
+        rgba(244, 67, 54, 0.8) 10px, rgba(244, 67, 54, 0.8) 20px);
+  }
+}
